@@ -1,0 +1,13 @@
+[package]
+name = "learn"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+async-trait = "0.1.83"
+serde = { version = "1.0", features = ["derive"] }
+uuid = "1.11.0"
+validator = "0.19.0"
+dotenvy = "0.15"
+diesel = { version = "2.2.0", features = ["postgres"] }
